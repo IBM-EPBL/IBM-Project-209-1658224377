@@ -1,1 +1,17 @@
-
+<form action="action_page.php" method="post">
+  <div class="container">
+    <h1>Login page</h1>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <br><br>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <br><br>
+    <label for="phone">Enter your phone number:</label>
+    <input type="tel" id="phone" name="phone" >
+    <br><br>
+    <button type="submit">Login</button>
+  </div>
+  <p style="background-image: url('img_girl.jpg');">
+  </p>
+</form>
